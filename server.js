@@ -6,7 +6,7 @@ const host = 'localhost';
 const authorsRouter = require('./authors');
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Hello, Galvanize!');
   });
 
 app.use('/authors', authorsRouter);
